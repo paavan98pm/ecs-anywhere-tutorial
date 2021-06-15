@@ -16,9 +16,6 @@ The application is written in Python and includes instructions for both x86 and 
 
 ![in-region-architecture](./images/in-region-architecture.png) 
 
-```
-//// Insert/update app architecture to explain the steps
-```
 ### The challenge
 
 Assume this is an application that has been developed for a global deployment. However, some of the contries where this application needs to be available have stringent requirements in terms of data residency. In particular the files that are being processed by the application contains `personal identifiable information` (PII) that needs to remain within specific country's border. Unfortunately, in these countries AWS doesn't have a regional presence. In addition, some of these countries have additional compliance requirements that requires data to be hosted on IT systems that are fully controlled by local customer teams. The team that built this application is hesitant to embark into investigating brand new tools to facilitate hybrid deployments and, in addition, they are very happy with the fully managed nature of the architecture they are using.  
@@ -30,29 +27,12 @@ The application team can leverage ECS Anywhere to continue maintaining all the a
 
 ![stretched-architecture](./images/stretched-architecture.png) 
 
+Follow the steps below for the tutorial:
 
+### [Step 0 - Prerequisites](./Step%200:%20Prerequisites/README.md)
 
+### [Step 1 - Regional Deployment](./Step%201:%20Regional%20Deployment/README.md)
 
+### [Step 2 - ECS Anywhere Deployment](./Step%202:%20ECS%20Anywhere%20Deployment/README.md)
 
-
-
-
-
-
- 
- 
-
-### Clean up 
-
-- Delete the `ecsAnywhereCluster` (you need to stop existing services and deregister the external instances)
-- Deregister the managed instances in SSM (Fleet Manager) and optionally delete the activation keys used for this tutorial (Hybrid Activations). If you already use SSM for other purposes make sure you deregister and delete the right objects
-- Delete the `ecsAnywhereInstanceRole` IAM role 
-- Delete any external infrastructure you may have deployed as part of this tutorial
-- Delete the in-region deployment using the same tool you have used to deploy the stack
-    - if you have used Copilot, you can run `copilot app delete` in the `/app/copilot` folder
-    - if you have used Docker Compose, you can run `docker compose down` in the `/app/docker-compose` folder. In addition, you should delete the ECR repository and the EFS volume manually
-
-
-
-
-
+### [Step 3 - Cleanup](./Step%203:%20Cleanup/README.md)
