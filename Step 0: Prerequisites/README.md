@@ -21,4 +21,4 @@ Depending on the path you will take in this tutorial, there may be additional pr
 
 
 
-### [Home](../README.md) <<<  >>> [Step 1 - Regional Deployment](./Step%201:%20Regional%20Deployment/README.md)
+### [Home](../README.md) <<<  >>> [Step 1 - Regional Deployment](../Step%201:%20Regional%20Deployment/README.md)

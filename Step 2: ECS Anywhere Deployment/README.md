@@ -94,4 +94,4 @@ Next, move into the `anywhere-deployment` directory and locate the script `exter
 
 At this point you should have a new task running on your external infrastructure as part of the service that the `external-deployment.sh` script has created. The way you'd test the application is functioning properly is similar to how you tested the in-region deployment with the only difference that now the worker task and the files are running and hosted on the external infrastructure. Everything else, the container image in ECR, the SQS queue, the IAM roles and the CW loggroup are still hosted in the region. 
 
-### [Home](../README.md) <<<  >>> [Step 3 - Cleanup](./Step%203:%20Cleanup/README.md)
+### [Home](../README.md) <<<  >>> [Step 3 - Cleanup](../Step%203:%20Cleanup/README.md)
