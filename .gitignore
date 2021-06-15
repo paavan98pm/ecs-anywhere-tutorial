@@ -4,3 +4,4 @@ main-setup-external.log
 ecsworker-external-task-def.json
 external-deployment.log
 .vagrant
+.DS_Store
