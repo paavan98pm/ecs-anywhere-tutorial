@@ -44,4 +44,6 @@ If you look at the logs in the CloudWatch log group you will see all the details
 
 ![cloudwatch-regional](../images/cloudwatch-regional.png) 
 
-Congratulations! You have a working deployment in the AWS region of your choice! 
+Congratulations! You have a working deployment in the AWS region of your choice!
+
+### [Home](../README.md) <<< >>> [Step 2 - ECS Anywhere Deployment](./Step%202:%20ECS%20Anywhere%20Deployment/README.md)

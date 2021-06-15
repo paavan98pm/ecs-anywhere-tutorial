@@ -18,3 +18,7 @@ cd ecs-anywhere-tutorial
 ``` 
 
 Depending on the path you will take in this tutorial, there may be additional pre-requisites that will be called out. 
+
+
+
+### [Home](../README.md) <<<  >>> [Step 1 - Regional Deployment](./Step%201:%20Regional%20Deployment/README.md)

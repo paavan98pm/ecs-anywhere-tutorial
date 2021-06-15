@@ -7,3 +7,5 @@
 - Delete the in-region deployment using the same tool you have used to deploy the stack
     - if you have used Copilot, you can run `copilot app delete` in the `/app/copilot` folder
     - if you have used Docker Compose, you can run `docker compose down` in the `/app/docker-compose` folder. In addition, you should delete the ECR repository and the EFS volume manually
+
+### >>> [Home](../README.md)
